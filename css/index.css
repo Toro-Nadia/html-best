@@ -54,15 +54,32 @@ a {
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
 }
+
+.header .container {
+  display: flex;
+}
+
+.header-wrap {
+}
+
 .header-logo {
 }
 .header-nav {
 }
 .header-list {
+  display: flex;
+  margin-left: 100px;
 }
 .header-item {
+  gap: 10px;
 }
 .header-link {
+  margin-left: 30px;
 }
